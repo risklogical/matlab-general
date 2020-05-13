@@ -6,7 +6,7 @@ function [lgraph] =prepareTransferLearningLayers(baseNetName,numClasses)
 %
 %   Inputs:
 %       baseNetName  Name of the pre-trained network (see https://uk.mathworks.com/help/deeplearning/ug/pretrained-convolutional-neural-networks.html) 
-%                    Note: this is identical to the network name for the base network in matlab except for googlenet trained on Placed365 whereby the argument to be specified is googlenetplaces
+%                    Note: this is identical to the network name for the base network in matlab except for googlenet trained on Places365 whereby the argument to be specified is googlenetplaces
 %       numClasses   Number of target classes for Transfer Learning
 %
 %   Outputs:
